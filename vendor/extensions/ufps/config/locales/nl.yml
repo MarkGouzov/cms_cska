@@ -1,0 +1,30 @@
+nl:
+  refinery:
+    plugins:
+      ufps:
+        title: Ufps
+    ufps:
+      admin:
+        ufps:
+          actions:
+            create_new: Maak een nieuwe Ufp
+            reorder: Wijzig de volgorde van de Ufps
+            reorder_done: Klaar met het wijzingen van de volgorde van de Ufps
+          records:
+            title: Ufps
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Ufps. Druk op 'Maak een nieuwe Ufp' om de eerste aan te maken.
+          ufp:
+            view_live_html: Bekijk deze ufp op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze ufp
+            delete: Verwijder deze ufp voor eeuwig
+      ufps:
+        show:
+          other: Andere Ufps
+  activerecord:
+    attributes:
+      'refinery/ufps/ufp':
+        title: Title
+        date: Date
+        photo: Photo
+        blurb: Blurb

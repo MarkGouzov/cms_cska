@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      ufptitle:strings:
+        title: Ufptitle:Strings
+    ufptitle:strings:
+      admin:
+        ufptitle:strings:
+          actions:
+            create_new: Maak een nieuwe Ufptitle:String
+            reorder: Wijzig de volgorde van de Ufptitle:Strings
+            reorder_done: Klaar met het wijzingen van de volgorde van de Ufptitle:Strings
+          records:
+            title: Ufptitle:Strings
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Ufptitle:Strings. Druk op 'Maak een nieuwe Ufptitle:String' om de eerste aan te maken.
+          ufptitle:string:
+            view_live_html: Bekijk deze ufptitle:string op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze ufptitle:string
+            delete: Verwijder deze ufptitle:string voor eeuwig
+      ufptitle:strings:
+        show:
+          other: Andere Ufptitle:Strings
+  activerecord:
+    attributes:
+      'refinery/ufptitle:strings/ufptitle:string':
+        date: Date
+        photo: Photo
+        blurb: Blurb

@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="ufps">
+    <% @ufps.each do |ufp| %>
+      <li>
+        <%= link_to ufp.title, refinery.ufps_ufp_path(ufp) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

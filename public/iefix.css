@@ -1,0 +1,3 @@
+.carousel ul li p img {
+	margin-top: expression(parseInt(parentNode.offsetHeight/2) - parseInt(this.offsetHeight/2) < 0 ? 0 : parseInt(parentNode.offsetHeight/2) - parseInt(this.offsetHeight/2)+ 'px');
+}

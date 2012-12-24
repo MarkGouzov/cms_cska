@@ -1,0 +1,57 @@
+.carousel {
+	margin: 0 auto;
+	height: 150px;
+	position: relative;
+	width: 948px; 
+}
+.carousel .crop {
+	height: 100%;
+	overflow: hidden;
+}
+.carousel ul {
+	height: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}	
+.carousel ul li {
+	display: table;	
+	float: left;
+	height: 100%;	
+	overflow: hidden;	
+	vertical-align: middle;	
+	width: 90px;	
+	padding: 5px;
+}
+.carousel ul li p {
+	display: table-cell;
+	height: 100%;		
+	text-align: center;
+	vertical-align: middle;
+}
+.carousel .prev {		
+	position: absolute; top: 50%; left: -40px;	
+}
+.carousel .next {	
+	position: absolute; top: 50%; right: -40px;
+}
+.carousel .prev.active {	
+	background: url('controls.png');
+}
+.carousel .next.active {	
+	background: url('controls.png') 17px 0;
+}
+.carousel .prev.inactive {	
+	background: url('controls.png') 0 48px;
+}
+.carousel .next.inactive {	
+	background: url('controls.png') 17px 48px;
+}
+.carousel .prev, .carousel .next {
+	height: 48px;
+	margin-top: -24px;
+	width: 17px;
+}
+.carousel .prev:hover, .carousel .next:hover {
+	cursor: pointer;
+}

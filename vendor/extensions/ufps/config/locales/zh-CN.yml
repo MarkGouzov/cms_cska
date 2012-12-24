@@ -1,0 +1,32 @@
+zh-CN:
+  refinery:
+    plugins:
+      ufps:
+        title: Ufps
+    ufps:
+      admin:
+        ufps:
+          actions:
+            create_new: 建立新的 Ufp
+            reorder: 对 Ufps 重新排序
+            reorder_done: 对 Ufps 的重新排序结束
+          records:
+            title: Ufps
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Ufps yet. Click "Add New Ufp" to add your first ufp.
+            no_items_yet: 目前没有 Ufps . 点击 "Add New Ufp" 创建一个ufp.
+          ufp:
+            view_live_html: 查看 ufp 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 ufp
+            delete: 永久删除 ufp
+      ufps:
+        show:
+          other: 其他 Ufps
+  activerecord:
+    attributes:
+      'refinery/ufps/ufp':
+        title: Title
+        date: Date
+        photo: Photo
+        blurb: Blurb

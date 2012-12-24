@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Ufptitle:strings::Admin::Ufptitle:stringsController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.ufptitle:strings_admin_ufptitle:strings_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_ufptitle:strings_admin_ufptitle:string_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Ufptitle:strings::Admin::Ufptitle:stringsController.sortable? && ::Refinery::Ufptitle:strings::Ufptitle:string.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Ufptitle:Strings"),
+                 refinery.ufptitle:strings_admin_ufptitle:strings_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Ufptitle:Strings"),
+                 refinery.ufptitle:strings_admin_ufptitle:strings_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

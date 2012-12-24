@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      ufptitle:strings:
+        title: Ufptitle:Strings
+#        article: masculino/femenino
+    ufptitle:strings:
+      admin:
+        ufptitle:strings:
+          actions:
+            create_new: Crear nuevo ufptitle:string
+            reorder: Reordenar ufptitle:strings
+            reorder_done: Reordenación de ufptitle:strings completada
+          records:
+            title: Ufptitle:Strings
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay ufptitle:strings todavía. Pulsa en "Crear nuevo Ufptitle:String" para crear tu primer ufptitle:string.
+          ufptitle:string:
+            view_live_html: Ver este ufptitle:string como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este ufptitle:string
+            delete: Borrar este ufptitle:string para siempre
+      ufptitle:strings:
+        show:
+          other: Otros ufptitle:strings
+  activerecord:
+    attributes:
+      'refinery/ufptitle:strings/ufptitle:string':
+        date: Date
+        photo: Photo
+        blurb: Blurb

@@ -1,0 +1,30 @@
+fr:
+  refinery:
+    plugins:
+      ufps:
+        title: Ufps
+    ufps:
+      admin:
+        ufps:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Ufp
+            reorder: Réordonner les Ufps
+            reorder_done: Fin de réordonnancement des Ufps
+          records:
+            title: Ufps
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Ufp. Cliquer sur "Créer un(e) nouve(au/l/lle) Ufp" pour créer votre premi(er/ère) ufp.'
+          ufp:
+            view_live_html: Voir ce(t/tte) ufp <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) ufp
+            delete: Supprimer définitivement ce(t/tte) ufp
+      ufps:
+        show:
+          other: Autres Ufps
+  activerecord:
+    attributes:
+      'refinery/ufps/ufp':
+        title: Title
+        date: Date
+        photo: Photo
+        blurb: Blurb

@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="ufptitle:strings">
+    <% @ufptitle:strings.each do |ufptitle:string| %>
+      <li>
+        <%= link_to ufptitle:string, refinery.ufptitle:strings_ufptitle:string_path(ufptitle:string) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

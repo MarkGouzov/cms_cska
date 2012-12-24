@@ -1,0 +1,29 @@
+sk:
+  refinery:
+    plugins:
+      ufptitle:strings:
+        title: Ufptitle:Strings
+    ufptitle:strings:
+      admin:
+        ufptitle:strings:
+          actions:
+            create_new: Pridať Ufptitle:String
+            reorder: Preusporiadať Ufptitle:Strings
+            reorder_done: Koniec radenia Ufptitle:Strings
+          records:
+            title: Ufptitle:Strings
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Ufptitle:Strings. Kliknite na "Pridať Ufptitle:String" pre pridanie prvého ufptitle:string.
+          ufptitle:string:
+            view_live_html: Zobraziť náhľad ufptitle:string<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť ufptitle:string
+            delete: Zmazať ufptitle:string
+      ufptitle:strings:
+        show:
+          other: Daľšie Ufptitle:Strings
+  activerecord:
+    attributes:
+      'refinery/ufptitle:strings/ufptitle:string':
+        date: Date
+        photo: Photo
+        blurb: Blurb

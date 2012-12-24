@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      ufptitle:strings:
+        title: Ufptitle:Strings
+    ufptitle:strings:
+      admin:
+        ufptitle:strings:
+          actions:
+            create_new: 建立新的 Ufptitle:String
+            reorder: 对 Ufptitle:Strings 重新排序
+            reorder_done: 对 Ufptitle:Strings 的重新排序结束
+          records:
+            title: Ufptitle:Strings
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Ufptitle:Strings yet. Click "Add New Ufptitle:String" to add your first ufptitle:string.
+            no_items_yet: 目前没有 Ufptitle:Strings . 点击 "Add New Ufptitle:String" 创建一个ufptitle:string.
+          ufptitle:string:
+            view_live_html: 查看 ufptitle:string 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 ufptitle:string
+            delete: 永久删除 ufptitle:string
+      ufptitle:strings:
+        show:
+          other: 其他 Ufptitle:Strings
+  activerecord:
+    attributes:
+      'refinery/ufptitle:strings/ufptitle:string':
+        date: Date
+        photo: Photo
+        blurb: Blurb

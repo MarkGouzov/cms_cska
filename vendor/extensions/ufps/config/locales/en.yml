@@ -1,0 +1,30 @@
+en:
+  refinery:
+    plugins:
+      ufps:
+        title: Ufps
+    ufps:
+      admin:
+        ufps:
+          actions:
+            create_new: Add New Ufp
+            reorder: Reorder Ufps
+            reorder_done: Done Reordering Ufps
+          records:
+            title: Ufps
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Ufps yet. Click "Add New Ufp" to add your first ufp.
+          ufp:
+            view_live_html: View this ufp live <br/><em>(opens in a new window)</em>
+            edit: Edit this ufp
+            delete: Remove this ufp forever
+      ufps:
+        show:
+          other: Other Ufps
+  activerecord:
+    attributes:
+      'refinery/ufps/ufp':
+        title: Title
+        date: Date
+        photo: Photo
+        blurb: Blurb

@@ -1,0 +1,31 @@
+es:
+  refinery:
+    plugins:
+      ufps:
+        title: Ufps
+#        article: masculino/femenino
+    ufps:
+      admin:
+        ufps:
+          actions:
+            create_new: Crear nuevo ufp
+            reorder: Reordenar ufps
+            reorder_done: Reordenación de ufps completada
+          records:
+            title: Ufps
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay ufps todavía. Pulsa en "Crear nuevo Ufp" para crear tu primer ufp.
+          ufp:
+            view_live_html: Ver este ufp como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este ufp
+            delete: Borrar este ufp para siempre
+      ufps:
+        show:
+          other: Otros ufps
+  activerecord:
+    attributes:
+      'refinery/ufps/ufp':
+        title: Title
+        date: Date
+        photo: Photo
+        blurb: Blurb

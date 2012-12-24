@@ -1,0 +1,30 @@
+nb:
+  refinery:
+    plugins:
+      ufps:
+        title: Ufps
+    ufps:
+      admin:
+        ufps:
+          actions:
+            create_new: Lag en ny Ufp
+            reorder: Endre rekkefølgen på Ufps
+            reorder_done: Ferdig å endre rekkefølgen Ufps
+          records:
+            title: Ufps
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Ufps enda. Klikk på "Lag en ny Ufp" for å legge til din første ufp.
+          ufp:
+            view_live_html: Vis hvordan denne ufp ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne ufp
+            delete: Fjern denne ufp permanent
+      ufps:
+        show:
+          other: Andre Ufps
+  activerecord:
+    attributes:
+      'refinery/ufps/ufp':
+        title: Title
+        date: Date
+        photo: Photo
+        blurb: Blurb

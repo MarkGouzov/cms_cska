@@ -1,0 +1,29 @@
+fr:
+  refinery:
+    plugins:
+      ufptitle:strings:
+        title: Ufptitle:Strings
+    ufptitle:strings:
+      admin:
+        ufptitle:strings:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Ufptitle:String
+            reorder: Réordonner les Ufptitle:Strings
+            reorder_done: Fin de réordonnancement des Ufptitle:Strings
+          records:
+            title: Ufptitle:Strings
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Ufptitle:String. Cliquer sur "Créer un(e) nouve(au/l/lle) Ufptitle:String" pour créer votre premi(er/ère) ufptitle:string.'
+          ufptitle:string:
+            view_live_html: Voir ce(t/tte) ufptitle:string <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) ufptitle:string
+            delete: Supprimer définitivement ce(t/tte) ufptitle:string
+      ufptitle:strings:
+        show:
+          other: Autres Ufptitle:Strings
+  activerecord:
+    attributes:
+      'refinery/ufptitle:strings/ufptitle:string':
+        date: Date
+        photo: Photo
+        blurb: Blurb

@@ -1,0 +1,29 @@
+en:
+  refinery:
+    plugins:
+      ufptitle:strings:
+        title: Ufptitle:Strings
+    ufptitle:strings:
+      admin:
+        ufptitle:strings:
+          actions:
+            create_new: Add New Ufptitle:String
+            reorder: Reorder Ufptitle:Strings
+            reorder_done: Done Reordering Ufptitle:Strings
+          records:
+            title: Ufptitle:Strings
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Ufptitle:Strings yet. Click "Add New Ufptitle:String" to add your first ufptitle:string.
+          ufptitle:string:
+            view_live_html: View this ufptitle:string live <br/><em>(opens in a new window)</em>
+            edit: Edit this ufptitle:string
+            delete: Remove this ufptitle:string forever
+      ufptitle:strings:
+        show:
+          other: Other Ufptitle:Strings
+  activerecord:
+    attributes:
+      'refinery/ufptitle:strings/ufptitle:string':
+        date: Date
+        photo: Photo
+        blurb: Blurb
